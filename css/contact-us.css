@@ -1,0 +1,80 @@
+.navbar {
+    border-radius: 0;
+}
+.navbar-inverse{
+    background-color:#7e5924;
+    padding: 5px;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    background-color: rgba(0, 128, 0, 0.795);
+  }
+.navbar-brand{
+    width: 50%;
+}
+.navbar-brand #logo {
+    margin-top: -20px;
+    width: 60%;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: yellow;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: yellow;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: yellow;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background: none;
+}
+/*images cover*/
+#background{
+    /* background-image: url(../images/dahlia.jpg); */
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.introduce{
+    width: 90%;
+    margin: auto;
+    word-break: break-all;
+    text-align: center;
+    color: black;
+    font-size: 4em;
+    line-height: 400px;
+}
+.introduce h2{
+    background-color: rgb(124, 145, 184);
+    border-radius: 20px;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.introduce h3{
+    margin-top: 50px;
+}
+.contact{
+    width: 80%;
+    margin: auto;
+}
+/* footer */
+footer{
+    margin-top: 20px;
+    background-color:black;
+    color:orange;
+    height:70px;
+}
+footer p{
+    text-align: center;
+    margin-top:30px
+}
